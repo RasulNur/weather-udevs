@@ -5,7 +5,7 @@ export default function IconWrapper({ currentWeather }: IconWrapperProps) {
         <div className="icon-wrapper">
             {currentWeather?.weather[0].icon ? (
                 <img
-                    src={`http://openweathermap.org/img/wn/${currentWeather?.weather[0].icon}.png`}
+                    src={`https://openweathermap.org/img/wn/${currentWeather?.weather[0].icon}.png`}
                     className="icon"
                     alt=""
                 />
