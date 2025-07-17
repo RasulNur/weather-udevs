@@ -16,7 +16,7 @@ export default function Content({ currentWeather, setCoords, userData }: Content
                         lng: Number(userData.longitude),
                     });
                 }}>
-                Погода в моем городе
+                Узнать погоду в моем городе
             </button>
             <div
                 className="content-bg"
