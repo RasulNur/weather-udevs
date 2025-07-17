@@ -12,7 +12,7 @@ export default function Search({ setCoords }: SearchProps) {
     const { data: cities, isLoading: isCitiesLoading } = useGetCitiesQuery(
         keywordDebounce.length > 2 ? keywordDebounce : skipToken,
     );
-
+    console.log({ cities });
     return (
         <div className="info-wrapper">
             <input
